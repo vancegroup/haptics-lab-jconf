@@ -1,0 +1,97 @@
+JConfs for Haptics Lab
+================
+
+
+These files are for use with the VR Juggler 3.0 series.
+
+Which Config Files to Use
+--------------------------------------------------
+
+
+You'll use exactly one "main" jconf file, and possible one or more
+"mix-in" jconf files to add functionality.
+
+You must use one "main" jconf file setting up displays and head
+tracking.
+
+* The "main" jconf files in the base directory select some subset
+	of the config files in `components` to load in order to provide
+	the desired functionality. So, you don't ever need to directly
+	load a file from `components,` just pick the right main file and
+	it'll be handled for you.
+
+	Decide which to use based on these criteria:
+	
+	* What system are you using?
+	
+		* Desktop fishbowl setup
+		
+		* Big projection screen
+
+	* Stereo or mono? Usually, you'll want stereo, except for things
+		like photo shoots.
+
+* You may then also load additional "mix-in" jconf files to provide
+	additional features.
+
+	* `mixins/hapticslab.wiimote.jconf` - Use the Wiimote for head
+		tracking.
+
+	* `simview.mixin.jconf` - Primarily for debugging - shows a
+		simulator view with the projections displayed as well as the
+		head and wand positions.
+
+System Description
+------------------
+
+* Computer systems:
+
+	* Main computer: `comrade.vrac.iastate.edu`
+
+		* Contains a single NVIDIA card.
+		
+	* Secondary computer: `niobe.vrac.iastate.edu`
+	
+		* Contains a single NVIDIA card.
+
+
+* Projectors:
+
+	* DepthQ-WXGA
+	
+		* 1280x720 native resolution
+		
+		* Stereoscopic 120Hz projector
+
+	* Infocus
+	
+		* ? resolution
+		
+		* mono
+
+* Tracking:
+
+	* [Intersense IS-900](http://www.intersense.com/pages/20/14)
+	
+		* Connected via COM port
+		
+	* [Polhemus Patriot](http://polhemus.com/?page=Motion_Patriot)
+	
+		* Connected via COM port
+
+* Interaction devices:
+
+	* Intersense wand
+	
+	* Wiimote
+
+
+More Information
+----------------
+
+You might consider using the
+[jconf-grapher](https://github.com/rpavlik/jconf-grapher) to visualize
+the devices made available with these config files. If you're not in our
+research group and any of this information is useful to you, we'd
+appreciate hearing from you! You can reach Ryan Pavlik, who put these
+files together, via his web site at <http://academic.cleardefinition.com>

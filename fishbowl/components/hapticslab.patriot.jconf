@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?org-vrjuggler-jccl-settings configuration.version="3.0"?>
+<configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="components/hapticslab.patriot.jconf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
+   <elements>
+      <vrpn name="VRPN0" version="2">
+         <tracker_server>PatriotTracker@localhost</tracker_server>
+         <button_server>Button0@localhost</button_server>
+         <analog_server>Analog@localhost</analog_server>
+         <tracker_count>2</tracker_count>
+         <button_count>0</button_count>
+         <analog_count>0</analog_count>
+         <min>-1.0</min>
+         <max>1.0</max>
+         <position_filters>
+            <position_transform_filter name="RotationFilter" version="1">
+               <pre_translate>0.4</pre_translate>
+               <pre_translate>0.7</pre_translate>
+               <pre_translate>-0.8</pre_translate>
+               <pre_rotation>0.0</pre_rotation>
+               <pre_rotation>0.0</pre_rotation>
+               <pre_rotation>0.0</pre_rotation>
+               <custom_scale>1.0</custom_scale>
+               <device_units>1.0</device_units>
+               <post_translate>0.0</post_translate>
+               <post_translate>0.0</post_translate>
+               <post_translate>0.0</post_translate>
+               <post_rotation>0.0</post_rotation>
+               <post_rotation>0.0</post_rotation>
+               <post_rotation>0.0</post_rotation>
+            </position_transform_filter>
+         </position_filters>
+      </vrpn>
+      
+      <position_proxy name="RightDeviceProxy" version="1">
+         <device>VRPN0</device>
+         <unit>0</unit>
+      </position_proxy>
+      <position_proxy name="LeftDeviceProxy" version="1">
+         <device>VRPN0</device>
+         <unit>1</unit>
+      </position_proxy>
+   </elements>
+</configuration>
+
