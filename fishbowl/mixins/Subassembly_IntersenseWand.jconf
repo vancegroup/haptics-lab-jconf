@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?org-vrjuggler-jccl-settings configuration.version="3.0"?>
+<configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="C:\Users\rpavlik\Desktop\src\sharp-2-trunk\config\hapticslab.bigprojection.wiimote-on-table.mono.jconf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
+   <elements>
+      <alias name="VJSubassembly" version="1">
+         <proxy>WandButton</proxy>
+      </alias>
+      <digital_proxy name="WandButton" version="1">
+         <device>InterSenseAPI0</device>
+         <unit>0</unit>
+      </digital_proxy>
+      <input_manager name="InputManager" version="2">
+         <driver_path>/home/users/rpavlik/lib/gadgeteer-1.2/</driver_path>
+         <driver>VRPN_drv</driver>
+         <driver>IntersenseAPI_drv</driver>
+      </input_manager>
+      <intersense_api name="InterSenseAPI0" version="2">
+         <driver>V:\Applications\Vances_group\jconf\isense</driver>
+         <port>COM2</port>
+         <stations>
+            <intersense_station name="Wand" version="1">
+               <enabled>true</enabled>
+               <station_index>1</station_index>
+               <use_digital>true</use_digital>
+               <use_analog>true</use_analog>
+               <digital_first>0</digital_first>
+               <digital_count>6</digital_count>
+               <analog_first>0</analog_first>
+               <analog_count>2</analog_count>
+            </intersense_station>
+         </stations>
+         <verbose>false</verbose>
+         <min>0.0</min>
+         <max>255.0</max>
+         <device_host />
+      </intersense_api>
+   </elements>
+</configuration>
+

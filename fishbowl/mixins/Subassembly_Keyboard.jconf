@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?org-vrjuggler-jccl-settings configuration.version="3.0"?>
+<configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="C:\Users\rpavlik\Desktop\src\sharp-2-trunk\config\hapticslab.bigprojection.wiimote-on-table.mono.jconf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
+   <elements>
+      <simulated_digital_device name="SubassemblyControl" version="2">
+         <keyboard_mouse_proxy>Keyboard Proxy</keyboard_mouse_proxy>
+         <key_pair>
+            <key_modifier_pair name="KeyPresses S" version="1">
+               <modifier_key>ANY</modifier_key>
+               <key>KEY_S</key>
+            </key_modifier_pair>
+         </key_pair>
+         <device_host />
+      </simulated_digital_device>
+      <alias name="VJSubassembly" version="1">
+         <proxy>VJSubassemblyProxy</proxy>
+      </alias>
+      <digital_proxy name="VJSubassemblyProxy" version="1">
+         <device>SubassemblyControl</device>
+         <unit>0</unit>
+      </digital_proxy>
+   </elements>
+</configuration>
+
