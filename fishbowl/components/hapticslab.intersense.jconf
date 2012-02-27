@@ -34,7 +34,7 @@
          </position_filters>
       </position_proxy>
       <intersense_api name="InterSenseAPI0" version="2">
-         <driver>V:\Applications\Vances_group\jconf\isense</driver>
+         <driver>V:\Applications\vancegroup\jconf\isense</driver>
          <port>COM2</port>
          <stations>
             <intersense_station name="Head" version="1">
