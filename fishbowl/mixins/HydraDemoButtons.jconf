@@ -8,11 +8,14 @@
       <alias name="JoystickY" version="1">
          <proxy>HydraLeftJSY</proxy>
       </alias>
-      <alias name="ResetButton" version="1">
+      <alias name="ChangeButton" version="1">
          <proxy>HydraLeftMiddleButton</proxy>
       </alias>
-      <alias name="ChangeButton" version="1">
+      <alias name="ResetNavButton" version="1">
          <proxy>HydraLeftButton1</proxy>
+      </alias>
+      <alias name="ResetModelButton" version="1">
+         <proxy>HydraLeftButton2</proxy>
       </alias>
    </elements>
 </configuration>

@@ -27,7 +27,7 @@
                <post_translate>0.0</post_translate>
                <post_translate>0.0</post_translate>
                <post_translate>0.0</post_translate>
-               <post_rotation>0.0</post_rotation>
+               <post_rotation>90.0</post_rotation>
                <post_rotation>0.0</post_rotation>
                <post_rotation>0.0</post_rotation>
             </position_transform_filter>
@@ -35,12 +35,12 @@
          <position_filters>
             <position_transform_filter name="MoveToBaseLocation" version="1">
                <pre_translate>0.0</pre_translate>
-               <pre_translate>1.3</pre_translate>
-               <pre_translate>0.1</pre_translate>
+               <pre_translate>1.1</pre_translate>
+               <pre_translate>0.5</pre_translate>
                <pre_rotation>0.0</pre_rotation>
                <pre_rotation>0.0</pre_rotation>
                <pre_rotation>0.0</pre_rotation>
-               <custom_scale>2.0</custom_scale>
+               <custom_scale>1.4</custom_scale>
                <device_units>Custom</device_units>
                <post_translate>0.0</post_translate>
                <post_translate>0.0</post_translate>

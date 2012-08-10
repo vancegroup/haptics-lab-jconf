@@ -10,6 +10,9 @@
       <alias name="VJHead" version="1">
          <proxy>HydraRightController</proxy>
       </alias>
+      <alias name="VJWand" version="1">
+         <proxy>HydraLeftController</proxy>
+      </alias>
    </elements>
 </configuration>
 
