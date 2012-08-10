@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?org-vrjuggler-jccl-settings configuration.version="3.0"?>
-<configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="components/hapticslab.displays.mono.jconf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
+<configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="display.jconf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
    <elements>
       <display_system name="Pipe Setup" version="3">
          <number_of_pipes>1</number_of_pipes>
@@ -50,16 +50,16 @@
                <size>1.0</size>
                <view>Left Eye</view>
                <lower_left_corner>0.0</lower_left_corner>
-               <lower_left_corner>0.8382</lower_left_corner>
+               <lower_left_corner>1.3</lower_left_corner>
                <lower_left_corner>0.0</lower_left_corner>
-               <lower_right_corner>0.344</lower_right_corner>
-               <lower_right_corner>0.8382</lower_right_corner>
+               <lower_right_corner>0.688</lower_right_corner>
+               <lower_right_corner>1.3</lower_right_corner>
                <lower_right_corner>0.0</lower_right_corner>
-               <upper_right_corner>0.344</upper_right_corner>
-               <upper_right_corner>1.0322</upper_right_corner>
+               <upper_right_corner>0.688</upper_right_corner>
+               <upper_right_corner>1.688</upper_right_corner>
                <upper_right_corner>0.0</upper_right_corner>
                <upper_left_corner>0.0</upper_left_corner>
-               <upper_left_corner>1.0322</upper_left_corner>
+               <upper_left_corner>1.688</upper_left_corner>
                <upper_left_corner>0.0</upper_left_corner>
                <user>VJUser</user>
                <active>true</active>

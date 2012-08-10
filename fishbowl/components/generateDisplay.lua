@@ -5,10 +5,11 @@ physical = {
 
 pixelOrigin = {0, 0}
 pixelSize = {1920, 1080}
-p2vScale = 1
+
+p2vScale = 2
 
 corners = {
-	lower_left_corner = {0, 0.8382 --[[ height above ground ]], 0}
+	lower_left_corner = {0, 1.3 --[[ height above ground ]], 0}
 }
 
 stereo = false
