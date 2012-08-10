@@ -3,6 +3,8 @@ physical = {
 	height = .194
 }
 
+pixelOrigin = {0, 0}
+pixelSize = {1920, 1080}
 p2vScale = 1
 
 corners = {
@@ -59,8 +61,8 @@ end
 main = function()
 	lines = {  }
 	outputNextConstantPiece()
-	outputVector("origin", {0, 0})
-	outputVector("size", {1920, 1080})
+	outputVector("origin", pixelOrigin)
+	outputVector("size", pixelSize)
 	outputNextConstantPiece()
 	if stereo then
 		outputText(tag("stereo", "true"))
