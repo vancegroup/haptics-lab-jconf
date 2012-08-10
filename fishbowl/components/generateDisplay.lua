@@ -128,7 +128,7 @@ constantPieces = {
 		 ;
 		 [[         <border>false</border>
          <hide_mouse>true</hide_mouse>
-         <full_screen>true</full_screen>
+         <full_screen>false</full_screen>
          <always_on_top>false</always_on_top>
          <active>true</active>
          <surface_viewports>
@@ -146,7 +146,7 @@ constantPieces = {
             </surface_viewport>
          </surface_viewports>
          <keyboard_mouse_device_name>Keyboard/Mouse Device</keyboard_mouse_device_name>
-         <allow_mouse_locking>true</allow_mouse_locking>
+         <allow_mouse_locking>false</allow_mouse_locking>
          <lock_key>0</lock_key>
          <start_locked>false</start_locked>
          <sleep_time>75</sleep_time>
