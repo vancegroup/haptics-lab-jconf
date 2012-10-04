@@ -3,7 +3,7 @@
 <configuration xmlns="http://www.vrjuggler.org/jccl/xsd/3.0/configuration" name="Configuration" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vrjuggler.org/jccl/xsd/3.0/configuration http://www.vrjuggler.org/jccl/xsd/3.0/configuration.xsd">
    <include>components/hapticslab.patriot.jconf</include>
    <include>components/hapticslab.gloves.jconf</include>
-   <include>components/hapticslab.intersense.jconf</include>
+   <include>components/hapticslab.dtrack.jconf</include>
    <include>components/hapticslab.user.jconf</include>
    <include>components/hapticslab.base.jconf</include>
    <include>components/hapticslab.displays.stereo.jconf</include>
