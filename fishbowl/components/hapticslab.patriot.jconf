@@ -17,7 +17,7 @@
                <pre_translate>0.7</pre_translate>
                <pre_translate>-0.8</pre_translate>
                <pre_rotation>0.0</pre_rotation>
-               <pre_rotation>0.0</pre_rotation>
+               <pre_rotation>-90.0</pre_rotation>
                <pre_rotation>0.0</pre_rotation>
                <custom_scale>1.0</custom_scale>
                <device_units>1.0</device_units>
@@ -30,7 +30,6 @@
             </position_transform_filter>
          </position_filters>
       </vrpn>
-      
       <position_proxy name="RightDeviceProxy" version="1">
          <device>VRPN0</device>
          <unit>0</unit>
