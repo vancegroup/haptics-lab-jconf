@@ -73,11 +73,17 @@ System Description
 
 	* [Intersense IS-900](http://www.intersense.com/pages/20/14)
 	
-		* Connected via COM port
+		* Connected via COM port (not currently used)
 		
 	* [Polhemus Patriot](http://polhemus.com/?page=Motion_Patriot)
 	
-		* Connected via COM port
+		* Connected via COM port, connects via VRPN
+		
+	* [ART Tracker](http://www.ar-tracking.com/products/tracking-systems/trackpack-system/)
+	
+		* Remote computer, connects via VRPN
+
+		* Tracker side offset applied: (x=+580,y=0,z=-1700)
 
 * Interaction devices:
 
