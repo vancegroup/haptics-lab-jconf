@@ -7,6 +7,7 @@
    <include>components/hapticslab.user.jconf</include>
    <include>components/hapticslab.base.jconf</include>
    <include>components/hapticslab.displays.mono.jconf</include>
+   <include>../modular-stock-jconf/base.mouse-as-buttons.jconf</include>
    <elements />
 </configuration>
 
