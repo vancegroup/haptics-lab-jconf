@@ -1,0 +1,3 @@
+[submodule "modular-stock-jconf"]
+	path = modular-stock-jconf
+	url = https://github.com/vancegroup/modular-stock-jconf.git
