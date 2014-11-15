@@ -50,16 +50,16 @@
                <size>1.0</size>
                <view>Stereo</view>
                <lower_left_corner>0.0</lower_left_corner>
-               <lower_left_corner>0.8382</lower_left_corner>
+               <lower_left_corner>0.86995</lower_left_corner>
                <lower_left_corner>0.0</lower_left_corner>
                <lower_right_corner>0.6477</lower_right_corner>
-               <lower_right_corner>0.8382</lower_right_corner>
+               <lower_right_corner>0.86995</lower_right_corner>
                <lower_right_corner>0.0</lower_right_corner>
                <upper_right_corner>0.6477</upper_right_corner>
-               <upper_right_corner>1.2065</upper_right_corner>
+               <upper_right_corner>1.22555</upper_right_corner>
                <upper_right_corner>0.0</upper_right_corner>
                <upper_left_corner>0.0</upper_left_corner>
-               <upper_left_corner>1.2065</upper_left_corner>
+               <upper_left_corner>1.22555</upper_left_corner>
                <upper_left_corner>0.0</upper_left_corner>
                <user>VJUser</user>
                <active>true</active>
