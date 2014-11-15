@@ -13,9 +13,9 @@
          <max>1.0</max>
          <position_filters>
             <position_transform_filter name="RotationFilter" version="1">
-               <pre_translate>0.4</pre_translate>
-               <pre_translate>0.7</pre_translate>
-               <pre_translate>-0.8</pre_translate>
+               <pre_translate>0.3</pre_translate>
+               <pre_translate>0.65</pre_translate>
+               <pre_translate>-0.7</pre_translate>
                <pre_rotation>0.0</pre_rotation>
                <pre_rotation>-90.0</pre_rotation>
                <pre_rotation>0.0</pre_rotation>
