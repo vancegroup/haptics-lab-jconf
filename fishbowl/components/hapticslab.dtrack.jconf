@@ -9,9 +9,9 @@
          <driver>VRPN_drv</driver>
       </input_manager>
       <vrpn name="TrackPack4" version="2">
-         <tracker_server>DTrack@dtrack-haptics.vrac.iastate.edu</tracker_server>
-         <button_server>Button0@dtrack-haptics.vrac.iastate.edu</button_server>
-         <analog_server>Analog@dtrack-haptics.vrac.iastate.edu</analog_server>
+         <tracker_server>DTrack@192.168.0.1</tracker_server>
+         <button_server>Button0@192.168.0.1</button_server>
+         <analog_server>Analog@192.168.0.1</analog_server>
          <tracker_count>4</tracker_count>
          <button_count>0</button_count>
          <analog_count>0</analog_count>
