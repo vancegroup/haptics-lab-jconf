@@ -8,6 +8,7 @@
    <include>components/hapticslab.base.jconf</include>
    <include>components/hapticslab.displays.stereo.jconf</include>
    <include>../modular-stock-jconf/base.mouse-as-buttons.jconf</include>
+   <include>../modular-stock-jconf/base.simulated-wand.jconf</include>
    <elements />
 </configuration>
 
