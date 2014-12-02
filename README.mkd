@@ -83,7 +83,7 @@ System Description
 	
 		* Remote computer, connects via VRPN
 
-		* Tracker side offset applied: (x=+580,y=0,z=-1700)
+		* Tracker side offset applied: (x=+228,y=-768,z=-280)
 
 * Interaction devices:
 
